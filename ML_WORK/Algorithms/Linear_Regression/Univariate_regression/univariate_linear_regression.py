@@ -1,3 +1,4 @@
+# This is to predict housing prices
 import pandas as pd
 from scipy.stats import linregress
 import numpy as np
