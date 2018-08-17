@@ -1,5 +1,6 @@
 
-
+# This program is to predict the song to which year it belongs to 
+# data can be downloaded from "https://archive.ics.uci.edu/ml/datasets/YearPredictionMSD"
 # Importing required libraries 
 
 from sklearn.linear_model import LinearRegression
@@ -11,7 +12,7 @@ import pandas as pd
 
 # Reading the dataset 
 
-dataset = pd.read_csv('')
+dataset = pd.read_csv('YearPredictionMSD.txt')
 
 # drop any null values if any
 dataset = dataset.dropna()
